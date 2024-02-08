@@ -1,28 +1,22 @@
-#EX1
-def my_function():
-    print("Hello from a fucntion")
-    
-#EX2
-def my_function():
-    print("Hello from a fucntion")
-my_function()
+# Exercise 1
+def exercise1():
+    print("Hello from a function")
 
-#EX3
-def my_function(fname, lname):
-  print(fname)
-my_function("Oleg", "Mongol")
-#EX4
-def my_function(x):
+# Exercise 2
+exercise1()
+
+# Exercise 3
+def exercise3(fname, lname):
+    print(fname)
+
+# Exercise 4
+def exercise4(x):
     return x + 5
-print(my_function(5))
 
-#EX5
-def my_function(*kids):
-    print("The youngest child is" + " " + kids[2])
-my_function("Vanya", "Sasha", "Vasya")
+# Exercise 5
+def exercise5(*kids):
+    print("The youngest child is " + kids[2])
 
-#EX6
-def my_function(**kid):
+# Exercise 6
+def exercise6(**kid):
     print("His last name is " + kid["lname"])
-my_function(fname = "Thomas", lname = "Shelby")
-
