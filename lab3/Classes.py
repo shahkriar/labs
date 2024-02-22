@@ -91,4 +91,8 @@
 # 6)
  numbers = list(map(int, input().split()))
  result = list(filter(lambda x: all(x % i != 0 for i in range(2, x)), numbers))
+<<<<<<< HEAD
  print(result)
+=======
+ print(result)
+>>>>>>> 071fb93323d181712389aba4ba9937d5011ddcd2

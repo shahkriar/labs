@@ -11,4 +11,8 @@
    pass
 
  x = Student("Mike")
+<<<<<<< HEAD
  x.printname()
+=======
+ x.printname()
+>>>>>>> 071fb93323d181712389aba4ba9937d5011ddcd2
