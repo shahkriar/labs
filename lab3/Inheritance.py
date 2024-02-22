@@ -1,14 +1,14 @@
-# class Student(Person):
-  
-# class Person:
-#   def __init__(self, fname):
-#     self.firstname = fname
+ class Student(Person):
+ 
+ class Person:
+   def __init__(self, fname):
+     self.firstname = fname
 
-#   def printname(self):
-#     print(self.firstname)
+   def printname(self):
+     print(self.firstname)
 
-# class Student(Person):
-#   pass
+ class Student(Person):
+   pass
 
-# x = Student("Mike")
-# x.printname()
+ x = Student("Mike")
+ x.printname()

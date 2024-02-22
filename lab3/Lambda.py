@@ -1,1 +1,1 @@
-# x = lambda a : a
+ x = lambda a : a
